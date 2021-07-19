@@ -7,7 +7,7 @@ package character;
  * @author angab
  *
  */
-public abstract class Character {
+public abstract class Character implements Movable {
 	
 	protected String name;
 	protected int life;

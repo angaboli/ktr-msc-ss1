@@ -28,30 +28,30 @@ public class Mage extends Character implements Movable {
 
 
 	@Override
-	public String moveRight() {
+	public void moveRight() {
 		// TODO Auto-generated method stub
-		return "[" +this.name+"] : moves right";
+		System.out.println( "[" +this.name+"] : moves right furtively.");
 	}
 
 
 	@Override
-	public String moveLeft() {
+	public void moveLeft() {
 		// TODO Auto-generated method stub
-		return "[" +this.name+"] : moves left";
+		System.out.println( "[" +this.name+"] : moves left furtively.");
 	}
 
 
 	@Override
-	public String moveBack() {
+	public void moveBack() {
 		// TODO Auto-generated method stub
-		return "[" +this.name+"] : moves back";
+		System.out.println( "[" +this.name+"] : moves back furtively.");
 	}
 
 
 	@Override
-	public String moveForward() {
+	public void moveForward() {
 		// TODO Auto-generated method stub
-		return "[" +this.name+"] : moves forward";
+		System.out.println( "[" +this.name+"] : moves forward furtively.");
 	}
 
 	

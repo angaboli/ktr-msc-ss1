@@ -3,13 +3,13 @@ package character;
 public interface Movable {
 	
 	
-	public String moveRight();
-	
-	public String moveLeft();
+	public void moveRight();
 	       
-	public String moveBack();
+	public void moveLeft();
 	       
-	public String moveForward();
+	public void moveBack();
+	       
+	public void moveForward();
 	
 	
 

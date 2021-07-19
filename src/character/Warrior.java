@@ -29,30 +29,30 @@ public class Warrior extends Character implements Movable{
 	
 	
 	@Override
-	public String moveRight() {
+	public void moveRight() {
 		// TODO Auto-generated method stub
-		return "[" +this.name+"] : moves right";
+		System.out.println( "[" +this.name+"] : moves right like a bad boy.");
 	}
 
 
 	@Override
-	public String moveLeft() {
+	public void moveLeft() {
 		// TODO Auto-generated method stub
-		return "[" +this.name+"] : moves left";
+		System.out.println( "[" +this.name+"] : moves left like a bad boy.");
 	}
 
 
 	@Override
-	public String moveBack() {
+	public void moveBack() {
 		// TODO Auto-generated method stub
-		return "[" +this.name+"] : moves back";
+		System.out.println( "[" +this.name+"] : moves back like a bad boy.");
 	}
 
 
 	@Override
-	public String moveForward() {
+	public void moveForward() {
 		// TODO Auto-generated method stub
-		return "[" +this.name+"] : moves forward";
+		System.out.println( "[" +this.name+"] : moves forward like a bad boy.");
 	}
 
 }

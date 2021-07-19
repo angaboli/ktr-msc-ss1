@@ -30,7 +30,6 @@ public abstract class Character implements Movable {
 		System.out.println("["+this.name+"]: Rrrrrrrrrr...") ;
 	}
 	
-	//public abstract String toString();
 
 	public String getName() {
 		return name;

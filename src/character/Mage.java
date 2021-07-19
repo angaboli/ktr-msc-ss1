@@ -6,7 +6,7 @@ public class Mage extends Character implements Movable {
 	protected int agility;
 	protected int strength;
 	protected int wit;
-	protected final String RPGClass= "Mage";
+	protected final String RPGClass= "May the gods be with me.";
 
 	public Mage(String name, String RPGClass) {
 		super(name, RPGClass);
@@ -14,6 +14,7 @@ public class Mage extends Character implements Movable {
 		this.strength = 3;
 		this.agility = 10;
 		this.wit = 10;
+		System.out.println(this.name +": " +this.RPGClass);
 	}
 	
 
@@ -22,7 +23,7 @@ public class Mage extends Character implements Movable {
 		if(weapon == "magic" || weapon == "wand") {
 			
 			System.out.println("["+this.name+"]: Rrrrrrrrrr...") ;
-			System.out.println("I'll crush you with my "+weapon+" ! \n") ;
+			System.out.println("I'll crush you with my "+weapon+" ! ") ;
 		}
 	}
 
@@ -30,29 +31,31 @@ public class Mage extends Character implements Movable {
 	@Override
 	public void moveRight() {
 		// TODO Auto-generated method stub
-		System.out.println( "[" +this.name+"] : moves right furtively.");
+		System.out.println( this.name+" : moves right furtively.");
 	}
 
 
 	@Override
 	public void moveLeft() {
 		// TODO Auto-generated method stub
-		System.out.println( "[" +this.name+"] : moves left furtively.");
+		System.out.println( this.name+" : moves left furtively.");
 	}
 
 
 	@Override
 	public void moveBack() {
 		// TODO Auto-generated method stub
-		System.out.println( "[" +this.name+"] : moves back furtively.");
+		System.out.println(this.name+" : moves back furtively.");
 	}
 
 
 	@Override
 	public void moveForward() {
 		// TODO Auto-generated method stub
-		System.out.println( "[" +this.name+"] : moves forward furtively.");
+		System.out.println( this.name+" : moves forward furtively.");
 	}
+
+
 
 	
 

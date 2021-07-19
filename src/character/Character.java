@@ -29,45 +29,30 @@ public abstract class Character {
 	public void attack(String weapon) {
 		System.out.println("["+this.name+"]: Rrrrrrrrrr...") ;
 	}
+	
+	//public abstract String toString();
 
 	public String getName() {
 		return name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
 
 	public int getLife() {
 		return life;
 	}
 
-	public void setLife(int life) {
-		this.life = life;
-	}
 
 	public int getAgility() {
 		return agility;
 	}
 
-	public void setAgility(int agility) {
-		this.agility = agility;
-	}
 
 	public int getStrength() {
 		return strength;
 	}
 
-	public void setStrength(int strength) {
-		this.strength = strength;
-	}
-
 	public int getWit() {
 		return wit;
-	}
-
-	public void setWit(int wit) {
-		this.wit = wit;
 	}
 
 	public String getRPGClass() {

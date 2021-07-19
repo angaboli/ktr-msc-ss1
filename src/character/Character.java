@@ -26,10 +26,9 @@ public abstract class Character implements Movable {
 		this.wit = 2;
 	}
 	
-	public void attack(String weapon) {
-		System.out.println("["+this.name+"]: Rrrrrrrrrr...") ;
-	}
+	public abstract void attack(String weapon) ; 
 	
+	public abstract void unsheathe();
 
 	public String getName() {
 		return name;

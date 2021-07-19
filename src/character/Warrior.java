@@ -56,4 +56,12 @@ public class Warrior extends Character implements Movable{
 		System.out.println(this.name+": moves forward like a bad boy.");
 	}
 
+
+	@Override
+	public void unsheathe() {
+		// TODO Auto-generated method stub
+		System.out.println(this.name + "unsheathe his weapon.");
+		
+	}
+
 }

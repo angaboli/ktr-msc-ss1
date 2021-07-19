@@ -55,7 +55,12 @@ public class Mage extends Character implements Movable {
 		System.out.println( this.name+" : moves forward furtively.");
 	}
 
-
+	@Override
+	public void unsheathe() {
+		// TODO Auto-generated method stub
+		System.out.println(this.name + "unsheathe his weapon.");
+		
+	}
 
 	
 

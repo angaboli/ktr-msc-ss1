@@ -19,5 +19,14 @@ public class Warrior extends Character{
 		this.agility = 8;
 		this.wit = 3;
 	}
+	
+	public void attack(String weapon) {
+		
+		if(weapon == "hammer" || weapon == "sword") {
+			
+			System.out.println("["+this.name+"]: Rrrrrrrrrr...") ;
+			System.out.println("I'll crush you with my ["+weapon+"] ! \n") ;
+		}
+	}
 
 }

@@ -24,7 +24,7 @@ public class Mage extends Character {
 		if(weapon == "magic" || weapon == "wand") {
 			
 			System.out.println("["+this.name+"]: Rrrrrrrrrr...") ;
-			System.out.println("I'll crush you with my ["+weapon+"] !") ;
+			System.out.println("I'll crush you with my ["+weapon+"] ! \n") ;
 		}
 	}
 	

@@ -1,5 +1,6 @@
 package exceptions;
 
-public class WeaponException {
+public class WeaponException extends Exception {
 
+	
 }
